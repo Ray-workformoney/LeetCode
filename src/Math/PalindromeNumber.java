@@ -43,7 +43,6 @@ public class PalindromeNumber
 		int num = 10;
 		boolean flag = PalindromeNumber.Judgment(num);
 		System.out.println(flag);
-
 	}
 
 }
