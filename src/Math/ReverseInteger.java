@@ -35,7 +35,7 @@ public class ReverseInteger
 
 	public static void main(String[] args) 
 	{
-		int num = -123;
+		int num = 10;
 		int res = ReverseInteger.ResverInt(num);
 		System.out.println(res);
 	}
