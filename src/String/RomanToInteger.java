@@ -33,7 +33,7 @@
 		Êä³ö : 1994
 		½âÊÍ : M = 1000, CM = 900, XC = 90, IV = 4.
  * */
-package Math;
+package String;
 
 import java.util.*;
 
