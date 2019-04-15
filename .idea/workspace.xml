@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/LinkList/DeleteDuplicates.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/LinkList/DeleteDuplicates.java" afterPath="$PROJECT_DIR$/src/LinkList/DeleteDuplicates.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +61,8 @@
       <file leaf-file-name="DeleteDuplicates.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkList/DeleteDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="138">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -481,7 +481,7 @@
       <workItem from="1555033465664" duration="4665000" />
       <workItem from="1555049886629" duration="779000" />
       <workItem from="1555056758898" duration="5604000" />
-      <workItem from="1555320373049" duration="122000" />
+      <workItem from="1555320373049" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1554946189560</created>
@@ -553,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555061041803</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DeleteDuplicates">
+      <created>1555320513967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555320513967</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22473000" />
+    <option name="totallyTimeSpent" value="23326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,7 +647,8 @@
     <MESSAGE value="AddBinary" />
     <MESSAGE value="MySqrt" />
     <MESSAGE value="ClimbStairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClimbStairs" />
+    <MESSAGE value="DeleteDuplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeleteDuplicates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1057,8 +1065,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList/DeleteDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="138">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
