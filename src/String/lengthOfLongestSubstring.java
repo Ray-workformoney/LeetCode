@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class lengthOfLongestSubstring {
-    public static int LengthOfLongestSubstring(String s){
+    private static int LengthOfLongestSubstring(String s){
         int start = 0, end = 0, maxSize = 0;
         while (start < s.length()){
             Set<Character> subString = new HashSet<>();
