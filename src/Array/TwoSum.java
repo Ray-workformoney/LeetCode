@@ -15,7 +15,7 @@ public class TwoSum
 		int[] res = new int[2];
 		boolean find = false;
 		//Map存储<与target的差值, 数组下标>
-		Map<Integer, Integer> dif = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> dif = new HashMap<>();
 		for (int i = 0; i < nums.length; i++)
 		{
 			if (dif.get(nums[i]) != null)
@@ -39,10 +39,11 @@ public class TwoSum
 	{
 		int[] nums = {2, 7, 11, 15};
 		int target = 9;
-		int[] res = new int[2];
+		int[] res;
 		res = TwoSum.Search(nums, target);
-		for (int i = 0; i < res.length; i++)
-			System.out.print(res[i] + " ");
+		for(int r : res){
+		    System.out.println(r + " ");
+        }
 	}
 
 }
