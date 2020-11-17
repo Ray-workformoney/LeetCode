@@ -19,7 +19,10 @@ public class Intersection {
 
     public static int[] intersect(int[] nums1, int[] nums2) {
 
-        if (nums1.length >= nums2.length) {     //nums1始终为两者中较短的数组
+        long startTime=System.currentTimeMillis();
+
+        //nums1始终为两者中较短的数组
+        if (nums1.length >= nums2.length) {
             int[] temp = nums2;
             nums2 = nums1;
             nums1 = temp;
@@ -45,6 +48,8 @@ public class Intersection {
             }
         }
 
+        long endTime=System.currentTimeMillis();
+        System.out.println("程序运行时间： "+(endTime - startTime)+"ms");
         return result.stream().mapToInt(Integer::intValue).toArray();
     }
 
@@ -66,8 +71,13 @@ public class Intersection {
 
     public static void main(String[] args) {
 
-        int[] nums1 = {};
-        int[] nums2 = {};
+        int[] nums1 = new int[1000000];
+        int[] nums2 = new int[1000000];
+        Random r = new Random();
+        for (int i = 0; i < 1000000; i ++) {
+            nums1[i] = r.nextInt();
+            nums2[i] = r.nextInt();
+        }
 
         System.out.println(Arrays.toString(intersect(nums1, nums2)));
     }
