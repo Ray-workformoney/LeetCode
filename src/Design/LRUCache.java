@@ -10,6 +10,10 @@ import java.util.Arrays;
  *  int get(int key) 如果关键字 key 存在于缓存中，则返回关键字的值，否则返回 -1 。
  *  void put(int key, int value) 如果关键字已经存在，则变更其数据值；如果关键字不存在，则插入该组「关键字-值」。当缓存容量达到上
  * 限时，它应该在写入新数据之前删除最久未使用的数据值，从而为新的数据值留出空间。
+ * 思路：使用双向链表数据结构,创建一个双向链表数组data,用来保存value,data[i]的next指针指向记录访问记录的useLink链表
+ * useLink链表中表头元素是最近访问过的,表尾元素是最近没有访问过的.为了实现O(1)的时间复杂度,创建一个索引数组index,
+ * index数组的下标为key,index[key]保存对应value在data数组中的下标。在开始时初始化一个available数组记录cache是否有剩余空间
+ * 在cache容量达到上限后,通过假删除将最近最久未访问的元素替换为新插入的元素.
  * @author: huangrui
  * @create: 2020-11-18 10:34
  **/
