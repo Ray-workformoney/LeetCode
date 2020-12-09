@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="4.寻找两个正序数组的中位数">
-      <change afterPath="$PROJECT_DIR$/src/String/MyAtoi.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="8.字符串转换整数 (atoi)">
+      <change afterPath="$PROJECT_DIR$/src/Array/ThreeSumClosest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -54,7 +54,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
-  <component name="RunManager" selected="Application.MyAtoi">
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.ThreeSumClosest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -118,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.SearchRotatedSortedArray" />
+    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.ThreeSumClosest" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -164,19 +170,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SearchRotatedSortedArray" />
       <item itemvalue="Application.LRUCache" />
       <item itemvalue="Application.ReverseBetween" />
       <item itemvalue="Application.FindMedianSortedArrays" />
       <item itemvalue="Application.MyAtoi" />
+      <item itemvalue="Application.ThreeSumClosest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.MyAtoi" />
         <item itemvalue="Application.FindMedianSortedArrays" />
         <item itemvalue="Application.ReverseBetween" />
         <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.SearchRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +242,10 @@
       <workItem from="1606354170462" duration="1229000" />
       <workItem from="1606439669173" duration="2228000" />
       <workItem from="1606702107961" duration="9332000" />
-      <workItem from="1606791995462" duration="7424000" />
+      <workItem from="1606791995462" duration="8867000" />
+      <workItem from="1607063842155" duration="1070000" />
+      <workItem from="1607325218758" duration="659000" />
+      <workItem from="1607477280810" duration="8020000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1554946189560</created>
@@ -448,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606707525986</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="8.字符串转换整数 (atoi)">
+      <created>1606807349654</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1606807349654</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -501,53 +517,54 @@
     <MESSAGE value="146.LRU缓存机制" />
     <MESSAGE value="92.反转链表II" />
     <MESSAGE value="4.寻找两个正序数组的中位数" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.寻找两个正序数组的中位数" />
+    <MESSAGE value="8.字符串转换整数 (atoi)" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.字符串转换整数 (atoi)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="327" y="7" key="CommitChangelistDialog2" timestamp="1606807325593">
+    <state x="327" y="7" key="CommitChangelistDialog2" timestamp="1607495801079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="327" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606807325593" />
-    <state width="746" height="359" key="GridCell.Tab.0.bottom" timestamp="1606807246446">
+    <state x="327" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607495801079" />
+    <state width="1492" height="217" key="GridCell.Tab.0.bottom" timestamp="1607495703372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="359" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606807246446" />
-    <state width="746" height="359" key="GridCell.Tab.0.center" timestamp="1606807246446">
+    <state width="1492" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607495703372" />
+    <state width="1492" height="217" key="GridCell.Tab.0.center" timestamp="1607495703372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="359" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606807246446" />
-    <state width="746" height="359" key="GridCell.Tab.0.left" timestamp="1606807246446">
+    <state width="1492" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607495703372" />
+    <state width="1492" height="217" key="GridCell.Tab.0.left" timestamp="1607495703372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="359" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606807246446" />
-    <state width="746" height="359" key="GridCell.Tab.0.right" timestamp="1606807246446">
+    <state width="1492" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607495703372" />
+    <state width="1492" height="217" key="GridCell.Tab.0.right" timestamp="1607495703372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="359" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606807246446" />
-    <state width="746" height="359" key="GridCell.Tab.1.bottom" timestamp="1606807246446">
+    <state width="1492" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607495703372" />
+    <state width="1492" height="359" key="GridCell.Tab.1.bottom" timestamp="1607495004817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="359" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606807246446" />
-    <state width="746" height="359" key="GridCell.Tab.1.center" timestamp="1606807246446">
+    <state width="1492" height="359" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607495004817" />
+    <state width="1492" height="359" key="GridCell.Tab.1.center" timestamp="1607495004817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="359" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606807246446" />
-    <state width="746" height="359" key="GridCell.Tab.1.left" timestamp="1606807246446">
+    <state width="1492" height="359" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607495004817" />
+    <state width="1492" height="359" key="GridCell.Tab.1.left" timestamp="1607495004817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="359" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606807246446" />
-    <state width="746" height="359" key="GridCell.Tab.1.right" timestamp="1606807246446">
+    <state width="1492" height="359" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607495004817" />
+    <state width="1492" height="359" key="GridCell.Tab.1.right" timestamp="1607495004817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="359" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606807246446" />
+    <state width="1492" height="359" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607495004817" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1606805034025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1606805034025" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606707544063">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606807355198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606707544063" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606807355198" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606792338291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -562,10 +579,6 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[4]寻找两个正序数组的中位数.java</url>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Array/FindMedianSortedArrays.java</url>
           <line>18</line>
           <option name="timeStamp" value="9" />
@@ -575,12 +588,26 @@
           <line>24</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/ThreeSumClosest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="lruCache.index" />
         <watch expression="lruCache.index" language="JAVA" />
+        <watch expression="Math.abs(sum - target)" language="JAVA" />
+        <watch expression="Math.abs(result - target)" language="JAVA" />
+        <watch expression="nums[i]" language="JAVA" />
+        <watch expression="nums[left]" language="JAVA" />
+        <watch expression="nums[right]" language="JAVA" />
+        <watch expression="i" />
+        <watch expression="left" />
+        <watch expression="right" />
+        <watch expression="sum" />
       </configuration>
     </watches-manager>
   </component>
