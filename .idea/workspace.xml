@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[1019]链表中的下一个更大节点">
-      <change afterPath="$PROJECT_DIR$/src/Array/ChalkReplacer.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[1894]找到需要补充粉笔的学生编号">
+      <change afterPath="$PROJECT_DIR$/src/Array/FindDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.ChalkReplacer">
+  <component name="RunManager" selected="Application.FindDuplicates">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -83,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.FindMedianSortedArrays" />
+    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.FindDuplicates" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -145,13 +145,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindMedianSortedArrays" />
       <item itemvalue="Application.MyAtoi" />
       <item itemvalue="Application.ThreeSumClosest" />
       <item itemvalue="Application.NextLargerNodes" />
       <item itemvalue="Application.ChalkReplacer" />
+      <item itemvalue="Application.FindDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicates" />
         <item itemvalue="Application.ChalkReplacer" />
         <item itemvalue="Application.NextLargerNodes" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.MyAtoi" />
-        <item itemvalue="Application.FindMedianSortedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +266,8 @@
       <workItem from="1631780856490" duration="917000" />
       <workItem from="1631849693052" duration="7325000" />
       <workItem from="1631932569681" duration="6000" />
-      <workItem from="1631954327583" duration="3605000" />
+      <workItem from="1631954327583" duration="3672000" />
+      <workItem from="1632278816701" duration="7359000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1554946189560</created>
@@ -490,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631870818300</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="[1894]找到需要补充粉笔的学生编号">
+      <created>1631959079361</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1631959079361</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -518,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MaximumSubarray" />
     <MESSAGE value="MaximumSubArray" />
     <MESSAGE value="LengthOfLastWord" />
     <MESSAGE value="PlusOne" />
@@ -543,7 +552,8 @@
     <MESSAGE value="4.寻找两个正序数组的中位数" />
     <MESSAGE value="8.字符串转换整数 (atoi)" />
     <MESSAGE value="[1019]链表中的下一个更大节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="[1019]链表中的下一个更大节点" />
+    <MESSAGE value="[1894]找到需要补充粉笔的学生编号" />
+    <option name="LAST_COMMIT_MESSAGE" value="[1894]找到需要补充粉笔的学生编号" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,6 +578,10 @@
           <line>31</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="24" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>

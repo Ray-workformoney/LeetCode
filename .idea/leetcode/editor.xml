@@ -109,6 +109,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[1340]跳跃游戏 V.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[1340]跳跃游戏 V.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[1340]跳跃游戏 V.java" />
+              <option name="questionId" value="1466" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[1641]统计字典序元音字符串的数目.java">
           <value>
             <LeetcodeEditor>
@@ -136,6 +145,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[1882]使用服务器处理任务.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[1882]使用服务器处理任务.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[1882]使用服务器处理任务.java" />
+              <option name="questionId" value="2012" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[1894]找到需要补充粉笔的学生编号.java">
           <value>
             <LeetcodeEditor>
@@ -145,12 +163,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[398]随机数索引.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[398]随机数索引.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[398]随机数索引.java" />
+              <option name="questionId" value="398" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[442]数组中重复的数据.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[442]数组中重复的数据.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[442]数组中重复的数据.java" />
+              <option name="questionId" value="442" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[5]最长回文子串.java">
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[5]最长回文子串.md" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[5]最长回文子串.java" />
               <option name="questionId" value="5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[65]有效数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[65]有效数字.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[65]有效数字.java" />
+              <option name="questionId" value="65" />
             </LeetcodeEditor>
           </value>
         </entry>
