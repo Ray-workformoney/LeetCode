@@ -217,6 +217,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[34]在排序数组中查找元素的第一个和最后一个位置.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[34]在排序数组中查找元素的第一个和最后一个位置.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[34]在排序数组中查找元素的第一个和最后一个位置.java" />
+              <option name="questionId" value="34" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[365]水壶问题.java">
           <value>
             <LeetcodeEditor>
@@ -232,6 +241,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[398]随机数索引.md" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[398]随机数索引.java" />
               <option name="questionId" value="398" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[3]无重复字符的最长子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[3]无重复字符的最长子串.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[3]无重复字符的最长子串.java" />
+              <option name="questionId" value="3" />
             </LeetcodeEditor>
           </value>
         </entry>
