@@ -109,6 +109,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[10]正则表达式匹配.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[10]正则表达式匹配.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[10]正则表达式匹配.java" />
+              <option name="questionId" value="10" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[11]盛最多水的容器.java">
           <value>
             <LeetcodeEditor>
@@ -217,6 +226,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[32]最长有效括号.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[32]最长有效括号.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[32]最长有效括号.java" />
+              <option name="questionId" value="32" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[34]在排序数组中查找元素的第一个和最后一个位置.java">
           <value>
             <LeetcodeEditor>
@@ -241,6 +259,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[398]随机数索引.md" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[398]随机数索引.java" />
               <option name="questionId" value="398" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[39]组合总和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[39]组合总和.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[39]组合总和.java" />
+              <option name="questionId" value="39" />
             </LeetcodeEditor>
           </value>
         </entry>
