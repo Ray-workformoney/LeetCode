@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[32]最长有效括号">
-      <change afterPath="$PROJECT_DIR$/src/Array/FindDisappearedNumbers.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[448]找到所有数组中消失的数字">
+      <change afterPath="$PROJECT_DIR$/src/String/GenerateParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -70,7 +71,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.FindDisappearedNumbers">
+  <component name="RunManager" selected="Application.GenerateParenthesis">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -92,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.LetterCombinations" />
+    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.GenerateParenthesis" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -120,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.NextPermutation" />
+    <configuration name="SearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.SearchRange" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -134,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.SearchRange" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.ThreeSum" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -154,15 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LetterCombinations" />
-      <item itemvalue="Application.NextPermutation" />
       <item itemvalue="Application.SearchRange" />
       <item itemvalue="Application.LongestValidParentheses" />
       <item itemvalue="Application.FindDisappearedNumbers" />
+      <item itemvalue="Application.ThreeSum" />
+      <item itemvalue="Application.GenerateParenthesis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateParenthesis" />
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.FindDisappearedNumbers" />
         <item itemvalue="Application.LongestValidParentheses" />
         <item itemvalue="Application.SearchRange" />
-        <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.LetterCombinations" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +283,10 @@
       <workItem from="1632738532177" duration="425000" />
       <workItem from="1632813052775" duration="3196000" />
       <workItem from="1632902028830" duration="3441000" />
-      <workItem from="1632985692442" duration="3163000" />
+      <workItem from="1632985692442" duration="4340000" />
+      <workItem from="1632997311022" duration="252000" />
+      <workItem from="1634030061611" duration="1261000" />
+      <workItem from="1634091327832" duration="4697000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1554946189560</created>
@@ -580,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632904902598</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="[448]找到所有数组中消失的数字">
+      <created>1632996161905</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1632996161905</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -608,7 +617,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AddTwoNumbers" />
     <MESSAGE value="merge" />
     <MESSAGE value="lengthOfLongestSubstring" />
     <MESSAGE value="TwoSum" />
@@ -633,7 +641,8 @@
     <MESSAGE value="[34]在排序数组中查找元素的第一个和最后一个位置" />
     <MESSAGE value="[3]无重复字符的最长子串" />
     <MESSAGE value="[32]最长有效括号" />
-    <option name="LAST_COMMIT_MESSAGE" value="[32]最长有效括号" />
+    <MESSAGE value="[448]找到所有数组中消失的数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="[448]找到所有数组中消失的数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,11 +653,6 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/FindMedianSortedArrays.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/String/MyAtoi.java</url>
           <line>24</line>
           <option name="timeStamp" value="17" />
@@ -657,6 +661,11 @@
           <url>file://$PROJECT_DIR$/src/Array/ThreeSumClosest.java</url>
           <line>31</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/String/GenerateParenthesis.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
