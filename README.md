@@ -1,2 +1,2 @@
-# LeetCode_J
+# LeetCode
 leetcode刷题记录
