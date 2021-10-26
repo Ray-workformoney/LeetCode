@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[39]组合总和">
-      <change afterPath="$PROJECT_DIR$/src/Array/Permute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[46]全排列">
+      <change afterPath="$PROJECT_DIR$/src/String/GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Permute">
+  <component name="RunManager" selected="Application.GroupAnagrams">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -92,13 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDisappearedNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.FindDisappearedNumbers" />
+    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.GenerateParenthesis" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.GenerateParenthesis" />
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.GroupAnagrams" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -154,13 +153,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindDisappearedNumbers" />
       <item itemvalue="Application.ThreeSum" />
       <item itemvalue="Application.GenerateParenthesis" />
       <item itemvalue="Application.CombinationSum" />
       <item itemvalue="Application.Permute" />
+      <item itemvalue="Application.GroupAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.Permute" />
         <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.GenerateParenthesis" />
         <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.FindDisappearedNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +288,8 @@
       <workItem from="1634030061611" duration="1261000" />
       <workItem from="1634091327832" duration="6069000" />
       <workItem from="1634197755852" duration="8160000" />
-      <workItem from="1634283464037" duration="2479000" />
+      <workItem from="1634283464037" duration="3744000" />
+      <workItem from="1635229253837" duration="2211000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1554946189560</created>
@@ -604,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634206222201</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="[46]全排列">
+      <created>1634286201821</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1634286201821</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView">
@@ -632,7 +641,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TwoSum" />
     <MESSAGE value="ThreeSum" />
     <MESSAGE value="MergeKLists" />
     <MESSAGE value="FindKthLargest" />
@@ -657,7 +665,8 @@
     <MESSAGE value="[448]找到所有数组中消失的数字" />
     <MESSAGE value="[22]括号生成" />
     <MESSAGE value="[39]组合总和" />
-    <option name="LAST_COMMIT_MESSAGE" value="[39]组合总和" />
+    <MESSAGE value="[46]全排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="[46]全排列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
