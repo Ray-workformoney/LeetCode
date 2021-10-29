@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[49]字母异位词分组">
-      <change afterPath="$PROJECT_DIR$/src/Array/MergeInterval.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[56]合并区间">
+      <change afterPath="$PROJECT_DIR$/src/Array/SortColors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.MergeInterval">
+  <component name="RunManager" selected="Application.SortColors">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -85,20 +85,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.GenerateParenthesis" />
-      <module name="LeetCode_J" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +122,20 @@
     </configuration>
     <configuration name="Permute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.Permute" />
+      <module name="LeetCode_J" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.SortColors" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -191,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GenerateParenthesis" />
       <item itemvalue="Application.CombinationSum" />
       <item itemvalue="Application.Permute" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.MergeInterval" />
+      <item itemvalue="Application.SortColors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.MergeInterval" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.Permute" />
         <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.GenerateParenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +289,10 @@
       <workItem from="1634197755852" duration="8160000" />
       <workItem from="1634283464037" duration="3744000" />
       <workItem from="1635229253837" duration="2316000" />
-      <workItem from="1635306490989" duration="4390000" />
+      <workItem from="1635306490989" duration="4860000" />
+      <workItem from="1635386650655" duration="4938000" />
+      <workItem from="1635472806108" duration="572000" />
+      <workItem from="1635473560042" duration="3688000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1554946189560</created>
@@ -620,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635233715403</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="[56]合并区间">
+      <created>1635329827203</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1635329827203</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -648,7 +658,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergeKLists" />
     <MESSAGE value="FindKthLargest" />
     <MESSAGE value="MaxProfit" />
     <MESSAGE value="198. 打家劫舍" />
@@ -673,7 +682,8 @@
     <MESSAGE value="[39]组合总和" />
     <MESSAGE value="[46]全排列" />
     <MESSAGE value="[49]字母异位词分组" />
-    <option name="LAST_COMMIT_MESSAGE" value="[49]字母异位词分组" />
+    <MESSAGE value="[56]合并区间" />
+    <option name="LAST_COMMIT_MESSAGE" value="[56]合并区间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
