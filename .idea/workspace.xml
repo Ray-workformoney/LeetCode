@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[102]二叉树的层序遍历">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaxProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[152]乘积最大子数组">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.MaxProduct">
+  <component name="RunManager" selected="Application.LongestPalindrome">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -92,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.MaxProduct" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.LongestPalindrome" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -106,13 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MergeInterval" />
+    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.MaxProduct" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeInterval" />
       <item itemvalue="Application.SortColors" />
       <item itemvalue="Application.Subsets" />
       <item itemvalue="Application.DailyTemperatures" />
       <item itemvalue="Application.MaxProduct" />
+      <item itemvalue="Application.LongestPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.MaxProduct" />
         <item itemvalue="Application.DailyTemperatures" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.SortColors" />
-        <item itemvalue="Application.MergeInterval" />
       </list>
     </recent_temporary>
   </component>
@@ -294,14 +293,7 @@
       <workItem from="1635472806108" duration="572000" />
       <workItem from="1635473560042" duration="11216000" />
       <workItem from="1635759604989" duration="3393000" />
-      <workItem from="1635832547478" duration="2186000" />
-    </task>
-    <task id="LOCAL-00004" summary="MaximumSubArray">
-      <created>1554951042229</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1554951042229</updated>
+      <workItem from="1635832547478" duration="7287000" />
     </task>
     <task id="LOCAL-00005" summary="LengthOfLastWord">
       <created>1554954277989</created>
@@ -639,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635761313193</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="[152]乘积最大子数组">
+      <created>1635840201057</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1635840201058</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -667,7 +666,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="350. 两个数组的交集 II" />
     <MESSAGE value="146.LRU缓存机制" />
     <MESSAGE value="92.反转链表II" />
     <MESSAGE value="4.寻找两个正序数组的中位数" />
@@ -692,7 +690,8 @@
     <MESSAGE value="[78]子集" />
     <MESSAGE value="[739]每日温度" />
     <MESSAGE value="[102]二叉树的层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="[102]二叉树的层序遍历" />
+    <MESSAGE value="[152]乘积最大子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="[152]乘积最大子数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,6 +710,11 @@
           <url>file://$PROJECT_DIR$/src/Array/ThreeSumClosest.java</url>
           <line>31</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/LongestPalindrome.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
