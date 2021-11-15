@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[58]最短无序连续子数组">
-      <change afterPath="$PROJECT_DIR$/src/Array/SubarraySum.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[560]和为K的子数组">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LengthOfLIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -70,7 +71,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.SubarraySum">
+  <component name="RunManager" selected="Application.LengthOfLIS">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -98,7 +99,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.LongestPalindrome" />
+    <configuration name="LengthOfLIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.LengthOfLIS" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -140,7 +141,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestPalindrome" />
       <item itemvalue="Application.IsMatch" />
       <item itemvalue="Application.CountSubstrings" />
       <item itemvalue="Application.FindUnsortedSubarray" />
       <item itemvalue="Application.SubarraySum" />
+      <item itemvalue="Application.LengthOfLIS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLIS" />
         <item itemvalue="Application.SubarraySum" />
         <item itemvalue="Application.FindUnsortedSubarray" />
         <item itemvalue="Application.CountSubstrings" />
         <item itemvalue="Application.IsMatch" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -296,14 +297,12 @@
       <workItem from="1635759604989" duration="3393000" />
       <workItem from="1635832547478" duration="9564000" />
       <workItem from="1635918615709" duration="6809000" />
-      <workItem from="1635992158155" duration="11079000" />
-    </task>
-    <task id="LOCAL-00008" summary="MySqrt">
-      <created>1555057521058</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1555057521058</updated>
+      <workItem from="1635992158155" duration="13525000" />
+      <workItem from="1636511187448" duration="170000" />
+      <workItem from="1636537928461" duration="685000" />
+      <workItem from="1636609577295" duration="2549000" />
+      <workItem from="1636705867056" duration="1490000" />
+      <workItem from="1636958284711" duration="1552000" />
     </task>
     <task id="LOCAL-00009" summary="ClimbStairs">
       <created>1555061000944</created>
@@ -641,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636011317777</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="[560]和为K的子数组">
+      <created>1636372338420</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1636372338420</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView">
@@ -669,7 +675,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8.字符串转换整数 (atoi)" />
     <MESSAGE value="[1019]链表中的下一个更大节点" />
     <MESSAGE value="[1894]找到需要补充粉笔的学生编号" />
     <MESSAGE value="[442]数组中重复的数据" />
@@ -694,7 +699,8 @@
     <MESSAGE value="[5]最长回文子串-中心扩散法" />
     <MESSAGE value="[647]回文子串" />
     <MESSAGE value="[58]最短无序连续子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="[58]最短无序连续子数组" />
+    <MESSAGE value="[560]和为K的子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="[560]和为K的子数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,11 +719,6 @@
           <url>file://$PROJECT_DIR$/src/Array/ThreeSumClosest.java</url>
           <line>31</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/SubarraySum.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

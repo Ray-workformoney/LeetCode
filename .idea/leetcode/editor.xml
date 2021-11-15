@@ -30,7 +30,8 @@
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[16]最接近的三数之和.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[16]最接近的三数之和.java" />
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[16]最接近的三数之和.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[16]最接近的三数之和.java" />
               <option name="questionId" value="16" />
             </LeetcodeEditor>
           </value>
@@ -199,6 +200,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[16]最接近的三数之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[16]最接近的三数之和.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[16]最接近的三数之和.java" />
+              <option name="questionId" value="16" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[1733]需要教语言的最少人数.java">
           <value>
             <LeetcodeEditor>
@@ -286,6 +296,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[22]括号生成.md" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[22]括号生成.java" />
               <option name="questionId" value="22" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[300]最长递增子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[300]最长递增子序列.md" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[300]最长递增子序列.java" />
+              <option name="questionId" value="300" />
             </LeetcodeEditor>
           </value>
         </entry>
