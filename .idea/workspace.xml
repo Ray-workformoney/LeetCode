@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[55]跳跃游戏">
-      <change afterPath="$PROJECT_DIR$/src/Array/LongestConsecutive.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[128]最长连续序列">
+      <change afterPath="$PROJECT_DIR$/src/Array/combinationSum2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.LongestConsecutive">
+  <component name="RunManager" selected="Application.CombinationSum2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -92,13 +92,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindUnsortedSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.FindUnsortedSubarray" />
+    <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.CombinationSum2" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindUnsortedSubarray" />
       <item itemvalue="Application.SubarraySum" />
       <item itemvalue="Application.LengthOfLIS" />
       <item itemvalue="Application.CanJump" />
       <item itemvalue="Application.LongestConsecutive" />
+      <item itemvalue="Application.CombinationSum2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSum2" />
         <item itemvalue="Application.LongestConsecutive" />
         <item itemvalue="Application.CanJump" />
         <item itemvalue="Application.LengthOfLIS" />
         <item itemvalue="Application.SubarraySum" />
-        <item itemvalue="Application.FindUnsortedSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -304,14 +304,7 @@
       <workItem from="1636609577295" duration="2549000" />
       <workItem from="1636705867056" duration="1490000" />
       <workItem from="1636958284711" duration="7564000" />
-      <workItem from="1636971388213" duration="5362000" />
-    </task>
-    <task id="LOCAL-00011" summary="DeleteDuplicates">
-      <created>1555320513967</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1555320513967</updated>
+      <workItem from="1636971388213" duration="16398000" />
     </task>
     <task id="LOCAL-00012" summary="DeleteDuplicates">
       <created>1555321928387</created>
@@ -649,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636963013125</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="[128]最长连续序列">
+      <created>1637058173286</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1637058173287</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView">
@@ -677,7 +677,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[442]数组中重复的数据" />
     <MESSAGE value="[19]删除链表的倒数第N个节点" />
     <MESSAGE value="[11]盛水最多的容器" />
     <MESSAGE value="[17]电话号码的字母组合" />
@@ -702,7 +701,8 @@
     <MESSAGE value="[560]和为K的子数组" />
     <MESSAGE value="[300]最长递增子序列" />
     <MESSAGE value="[55]跳跃游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="[55]跳跃游戏" />
+    <MESSAGE value="[128]最长连续序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="[128]最长连续序列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,6 +721,16 @@
           <url>file://$PROJECT_DIR$/src/Array/ThreeSumClosest.java</url>
           <line>31</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/combinationSum2.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/combinationSum2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
