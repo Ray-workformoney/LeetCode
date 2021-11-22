@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[135]分发糖果">
-      <change afterPath="$PROJECT_DIR$/src/Array/KSmallestPairs.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[373]查找和最小的K对数字">
+      <change afterPath="$PROJECT_DIR$/src/LinkList/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -304,14 +304,7 @@
       <workItem from="1636609577295" duration="2549000" />
       <workItem from="1636705867056" duration="1490000" />
       <workItem from="1636958284711" duration="7564000" />
-      <workItem from="1636971388213" duration="30330000" />
-    </task>
-    <task id="LOCAL-00014" summary="merge">
-      <created>1556020922689</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1556020922689</updated>
+      <workItem from="1636971388213" duration="32042000" />
     </task>
     <task id="LOCAL-00015" summary="merge">
       <created>1557907511997</created>
@@ -649,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637228604663</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="[373]查找和最小的K对数字">
+      <created>1637310251346</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1637310251346</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView">
@@ -677,7 +677,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[17]电话号码的字母组合" />
     <MESSAGE value="[31]下一个排列" />
     <MESSAGE value="[34]在排序数组中查找元素的第一个和最后一个位置" />
     <MESSAGE value="[3]无重复字符的最长子串" />
@@ -702,7 +701,8 @@
     <MESSAGE value="[128]最长连续序列" />
     <MESSAGE value="[40]组合综合 II" />
     <MESSAGE value="[135]分发糖果" />
-    <option name="LAST_COMMIT_MESSAGE" value="[135]分发糖果" />
+    <MESSAGE value="[373]查找和最小的K对数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="[373]查找和最小的K对数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
