@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指 Offer 09] 用两个栈实现队列">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Fib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指 offer 10 - I] 斐波那契数列">
+      <change afterPath="$PROJECT_DIR$/src/Array/FindRepeatNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,14 +312,7 @@
       <workItem from="1639725558414" duration="597000" />
       <workItem from="1639996022098" duration="1905000" />
       <workItem from="1640166731964" duration="758000" />
-      <workItem from="1640692895812" duration="3244000" />
-    </task>
-    <task id="LOCAL-00023" summary="198. 打家劫舍">
-      <created>1594361782378</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1594361782378</updated>
+      <workItem from="1640692895812" duration="3581000" />
     </task>
     <task id="LOCAL-00024" summary="350. 两个数组的交集 II">
       <created>1594630830440</created>
@@ -659,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640834291385</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="[剑指 offer 10 - I] 斐波那契数列">
+      <created>1640836472443</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1640836472443</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TodoView">
@@ -687,7 +685,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[49]字母异位词分组" />
     <MESSAGE value="[56]合并区间" />
     <MESSAGE value="[75]颜色分类" />
     <MESSAGE value="[78]子集" />
@@ -712,7 +709,8 @@
     <MESSAGE value="[77]组合" />
     <MESSAGE value="[1911]最大子序列交替和" />
     <MESSAGE value="[剑指 Offer 09] 用两个栈实现队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指 Offer 09] 用两个栈实现队列" />
+    <MESSAGE value="[剑指 offer 10 - I] 斐波那契数列" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指 offer 10 - I] 斐波那契数列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
