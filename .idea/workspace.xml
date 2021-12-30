@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指 offer 10 - I] 斐波那契数列">
-      <change afterPath="$PROJECT_DIR$/src/Array/FindRepeatNumber.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="剑指offer 03 数组中重复的数字">
+      <change afterPath="$PROJECT_DIR$/src/Array/FindNumberIn2DArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,14 +312,7 @@
       <workItem from="1639725558414" duration="597000" />
       <workItem from="1639996022098" duration="1905000" />
       <workItem from="1640166731964" duration="758000" />
-      <workItem from="1640692895812" duration="3581000" />
-    </task>
-    <task id="LOCAL-00024" summary="350. 两个数组的交集 II">
-      <created>1594630830440</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1594630830440</updated>
+      <workItem from="1640692895812" duration="4718000" />
     </task>
     <task id="LOCAL-00025" summary="33.搜索旋转排序数组">
       <created>1605583570918</created>
@@ -657,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640836472443</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="剑指offer 03 数组中重复的数字">
+      <created>1640836738252</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1640836738252</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView">
@@ -685,7 +685,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[56]合并区间" />
     <MESSAGE value="[75]颜色分类" />
     <MESSAGE value="[78]子集" />
     <MESSAGE value="[739]每日温度" />
@@ -710,7 +709,8 @@
     <MESSAGE value="[1911]最大子序列交替和" />
     <MESSAGE value="[剑指 Offer 09] 用两个栈实现队列" />
     <MESSAGE value="[剑指 offer 10 - I] 斐波那契数列" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指 offer 10 - I] 斐波那契数列" />
+    <MESSAGE value="剑指offer 03 数组中重复的数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer 03 数组中重复的数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
