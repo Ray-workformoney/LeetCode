@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="剑指offer 03 数组中重复的数字">
-      <change afterPath="$PROJECT_DIR$/src/Array/FindNumberIn2DArray.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="剑指offer 04 二维数组中的查找">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/NumWays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Fib">
+  <component name="RunManager" selected="Application.NumWays">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -104,13 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLongestSubstring2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.LengthOfLongestSubstring2" />
+    <configuration name="MaxAlternatingSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.MaxAlternatingSum" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAlternatingSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.MaxAlternatingSum" />
+    <configuration name="NumWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.NumWays" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -189,19 +189,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LengthOfLongestSubstring2" />
       <item itemvalue="Application.SearchMatrix" />
       <item itemvalue="Application.Combine" />
       <item itemvalue="Application.MaxAlternatingSum" />
       <item itemvalue="Application.Fib" />
+      <item itemvalue="Application.NumWays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumWays" />
         <item itemvalue="Application.Fib" />
         <item itemvalue="Application.MaxAlternatingSum" />
         <item itemvalue="Application.Combine" />
         <item itemvalue="Application.SearchMatrix" />
-        <item itemvalue="Application.LengthOfLongestSubstring2" />
       </list>
     </recent_temporary>
   </component>
@@ -312,14 +312,7 @@
       <workItem from="1639725558414" duration="597000" />
       <workItem from="1639996022098" duration="1905000" />
       <workItem from="1640166731964" duration="758000" />
-      <workItem from="1640692895812" duration="4718000" />
-    </task>
-    <task id="LOCAL-00025" summary="33.搜索旋转排序数组">
-      <created>1605583570918</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1605583570918</updated>
+      <workItem from="1640692895812" duration="5837000" />
     </task>
     <task id="LOCAL-00026" summary="350. 两个数组的交集 II">
       <created>1605583696771</created>
@@ -657,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640836738252</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="剑指offer 04 二维数组中的查找">
+      <created>1640843398400</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1640843398400</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TodoView">
@@ -685,7 +685,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[75]颜色分类" />
     <MESSAGE value="[78]子集" />
     <MESSAGE value="[739]每日温度" />
     <MESSAGE value="[102]二叉树的层序遍历" />
@@ -710,7 +709,8 @@
     <MESSAGE value="[剑指 Offer 09] 用两个栈实现队列" />
     <MESSAGE value="[剑指 offer 10 - I] 斐波那契数列" />
     <MESSAGE value="剑指offer 03 数组中重复的数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer 03 数组中重复的数字" />
+    <MESSAGE value="剑指offer 04 二维数组中的查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer 04 二维数组中的查找" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
