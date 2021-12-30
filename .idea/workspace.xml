@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer 10-II] 青蛙跳台阶问题">
-      <change afterPath="$PROJECT_DIR$/src/Array/MinArray.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指 offer 11]旋转数组的最小数字">
+      <change afterPath="$PROJECT_DIR$/src/Array/Exist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.MinArray">
+  <component name="RunManager" selected="Application.Exist">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -76,8 +78,8 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Combine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Combine" />
+    <configuration name="Exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Exist" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -189,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Combine" />
       <item itemvalue="Application.MaxAlternatingSum" />
       <item itemvalue="Application.Fib" />
       <item itemvalue="Application.NumWays" />
       <item itemvalue="Application.MinArray" />
+      <item itemvalue="Application.Exist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exist" />
         <item itemvalue="Application.MinArray" />
         <item itemvalue="Application.NumWays" />
         <item itemvalue="Application.Fib" />
         <item itemvalue="Application.MaxAlternatingSum" />
-        <item itemvalue="Application.Combine" />
       </list>
     </recent_temporary>
   </component>
@@ -312,14 +314,7 @@
       <workItem from="1639725558414" duration="597000" />
       <workItem from="1639996022098" duration="1905000" />
       <workItem from="1640166731964" duration="758000" />
-      <workItem from="1640692895812" duration="6995000" />
-    </task>
-    <task id="LOCAL-00027" summary="146.LRU缓存机制">
-      <created>1605685182832</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1605685182832</updated>
+      <workItem from="1640692895812" duration="15964000" />
     </task>
     <task id="LOCAL-00028" summary="146.LRU缓存机制">
       <created>1605685808201</created>
@@ -657,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640844647386</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="[剑指 offer 11]旋转数组的最小数字">
+      <created>1640845845525</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1640845845525</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TodoView">
@@ -685,7 +687,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[739]每日温度" />
     <MESSAGE value="[102]二叉树的层序遍历" />
     <MESSAGE value="[152]乘积最大子数组" />
     <MESSAGE value="[5]最长回文子串-中心扩散法" />
@@ -710,7 +711,8 @@
     <MESSAGE value="剑指offer 03 数组中重复的数字" />
     <MESSAGE value="剑指offer 04 二维数组中的查找" />
     <MESSAGE value="[剑指offer 10-II] 青蛙跳台阶问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer 10-II] 青蛙跳台阶问题" />
+    <MESSAGE value="[剑指 offer 11]旋转数组的最小数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指 offer 11]旋转数组的最小数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
