@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="剑指offer 04 二维数组中的查找">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/NumWays.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer 10-II] 青蛙跳台阶问题">
+      <change afterPath="$PROJECT_DIR$/src/Array/MinArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.NumWays">
+  <component name="RunManager" selected="Application.MinArray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -118,13 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.NumWays" />
+    <configuration name="MinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.MinArray" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.SearchMatrix" />
+    <configuration name="NumWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.NumWays" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,19 +189,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SearchMatrix" />
       <item itemvalue="Application.Combine" />
       <item itemvalue="Application.MaxAlternatingSum" />
       <item itemvalue="Application.Fib" />
       <item itemvalue="Application.NumWays" />
+      <item itemvalue="Application.MinArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinArray" />
         <item itemvalue="Application.NumWays" />
         <item itemvalue="Application.Fib" />
         <item itemvalue="Application.MaxAlternatingSum" />
         <item itemvalue="Application.Combine" />
-        <item itemvalue="Application.SearchMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -312,14 +312,7 @@
       <workItem from="1639725558414" duration="597000" />
       <workItem from="1639996022098" duration="1905000" />
       <workItem from="1640166731964" duration="758000" />
-      <workItem from="1640692895812" duration="5837000" />
-    </task>
-    <task id="LOCAL-00026" summary="350. 两个数组的交集 II">
-      <created>1605583696771</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1605583696771</updated>
+      <workItem from="1640692895812" duration="6995000" />
     </task>
     <task id="LOCAL-00027" summary="146.LRU缓存机制">
       <created>1605685182832</created>
@@ -657,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640843398400</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="[剑指offer 10-II] 青蛙跳台阶问题">
+      <created>1640844647386</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1640844647386</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TodoView">
@@ -685,7 +685,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[78]子集" />
     <MESSAGE value="[739]每日温度" />
     <MESSAGE value="[102]二叉树的层序遍历" />
     <MESSAGE value="[152]乘积最大子数组" />
@@ -710,7 +709,8 @@
     <MESSAGE value="[剑指 offer 10 - I] 斐波那契数列" />
     <MESSAGE value="剑指offer 03 数组中重复的数字" />
     <MESSAGE value="剑指offer 04 二维数组中的查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer 04 二维数组中的查找" />
+    <MESSAGE value="[剑指offer 10-II] 青蛙跳台阶问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer 10-II] 青蛙跳台阶问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
