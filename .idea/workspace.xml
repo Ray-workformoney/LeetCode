@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer05]替换空格">
-      <change afterPath="$PROJECT_DIR$/src/Array/SingleNumber.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer56] 数组中数字出现的次数II">
+      <change afterPath="$PROJECT_DIR$/src/LinkList/ReversePrint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RestServicesNavigator">
     <treeState>
@@ -154,17 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -191,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinArray" />
       <item itemvalue="Application.Exist" />
-      <item itemvalue="Application.ReplaceSpace" />
+      <item itemvalue="Application.MinArray" />
       <item itemvalue="Application.MovingCount" />
+      <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.SingleNumber" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.MovingCount" />
         <item itemvalue="Application.ReplaceSpace" />
-        <item itemvalue="Application.Exist" />
+        <item itemvalue="Application.MovingCount" />
         <item itemvalue="Application.MinArray" />
+        <item itemvalue="Application.Exist" />
       </list>
     </recent_temporary>
   </component>
@@ -316,14 +305,8 @@
       <workItem from="1640166731964" duration="758000" />
       <workItem from="1640692895812" duration="21018000" />
       <workItem from="1641348481694" duration="2525000" />
-      <workItem from="1641781672479" duration="7555000" />
-    </task>
-    <task id="LOCAL-00031" summary="8.字符串转换整数 (atoi)">
-      <created>1606807349654</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1606807349654</updated>
+      <workItem from="1641781672479" duration="7945000" />
+      <workItem from="1641799675214" duration="724000" />
     </task>
     <task id="LOCAL-00032" summary="[1019]链表中的下一个更大节点">
       <created>1631870818300</created>
@@ -661,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641785010616</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="[剑指offer56] 数组中数字出现的次数II">
+      <created>1641799254264</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1641799254264</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TodoView">
@@ -689,7 +679,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[647]回文子串" />
     <MESSAGE value="[58]最短无序连续子数组" />
     <MESSAGE value="[560]和为K的子数组" />
     <MESSAGE value="[300]最长递增子序列" />
@@ -714,7 +703,8 @@
     <MESSAGE value="[剑指offer 12] 矩阵中的路径" />
     <MESSAGE value="[剑指offer05]替换空格" />
     <MESSAGE value="[剑指offer13]机器人的运动范围" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer13]机器人的运动范围" />
+    <MESSAGE value="[剑指offer56] 数组中数字出现的次数II" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer56] 数组中数字出现的次数II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,6 +765,10 @@
         <watch expression="sum" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="masterDetails">
     <states>
