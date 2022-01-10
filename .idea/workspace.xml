@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer05]替换空格">
       <change afterPath="$PROJECT_DIR$/src/Array/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/MovingCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -71,7 +70,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.MovingCount">
+  <component name="RunManager" selected="Application.SingleNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -121,20 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.NumWays" />
-      <module name="LeetCode_J" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.ReplaceSpace" />
       <module name="LeetCode_J" />
@@ -142,6 +127,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.SingleNumber" />
+      <module name="LeetCode_J" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumWays" />
       <item itemvalue="Application.MinArray" />
       <item itemvalue="Application.Exist" />
       <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.MovingCount" />
+      <item itemvalue="Application.SingleNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.MovingCount" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.Exist" />
         <item itemvalue="Application.MinArray" />
-        <item itemvalue="Application.NumWays" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +316,7 @@
       <workItem from="1640166731964" duration="758000" />
       <workItem from="1640692895812" duration="21018000" />
       <workItem from="1641348481694" duration="2525000" />
-      <workItem from="1641781672479" duration="2520000" />
-    </task>
-    <task id="LOCAL-00030" summary="4.寻找两个正序数组的中位数">
-      <created>1606707525986</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1606707525986</updated>
+      <workItem from="1641781672479" duration="7555000" />
     </task>
     <task id="LOCAL-00031" summary="8.字符串转换整数 (atoi)">
       <created>1606807349654</created>
@@ -662,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640880185937</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="[剑指offer13]机器人的运动范围">
+      <created>1641785010616</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1641785010616</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView">
@@ -690,7 +689,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[5]最长回文子串-中心扩散法" />
     <MESSAGE value="[647]回文子串" />
     <MESSAGE value="[58]最短无序连续子数组" />
     <MESSAGE value="[560]和为K的子数组" />
@@ -715,7 +713,8 @@
     <MESSAGE value="[剑指 offer 11]旋转数组的最小数字" />
     <MESSAGE value="[剑指offer 12] 矩阵中的路径" />
     <MESSAGE value="[剑指offer05]替换空格" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer05]替换空格" />
+    <MESSAGE value="[剑指offer13]机器人的运动范围" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer13]机器人的运动范围" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,11 +753,6 @@
           <url>file://$PROJECT_DIR$/src/Array/SearchMatrix.java</url>
           <line>58</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DynamicProgramming/MovingCount.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
