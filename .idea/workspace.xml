@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer56] 数组中数字出现的次数II">
-      <change afterPath="$PROJECT_DIR$/src/LinkList/ReversePrint.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer06]从尾到头打印链表">
+      <change afterPath="$PROJECT_DIR$/src/Tree/BuildTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.SingleNumber">
+  <component name="RunManager" selected="Application.BuildTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -78,13 +78,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Exist" />
+    <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.BuildTree" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,6 +154,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -180,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Exist" />
       <item itemvalue="Application.MinArray" />
       <item itemvalue="Application.MovingCount" />
       <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.SingleNumber" />
+      <item itemvalue="Application.BuildTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.MovingCount" />
         <item itemvalue="Application.MinArray" />
-        <item itemvalue="Application.Exist" />
       </list>
     </recent_temporary>
   </component>
@@ -306,14 +317,7 @@
       <workItem from="1640692895812" duration="21018000" />
       <workItem from="1641348481694" duration="2525000" />
       <workItem from="1641781672479" duration="7945000" />
-      <workItem from="1641799675214" duration="724000" />
-    </task>
-    <task id="LOCAL-00032" summary="[1019]链表中的下一个更大节点">
-      <created>1631870818300</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1631870818300</updated>
+      <workItem from="1641799675214" duration="7475000" />
     </task>
     <task id="LOCAL-00033" summary="[1894]找到需要补充粉笔的学生编号">
       <created>1631959079361</created>
@@ -651,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641799254264</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="[剑指offer06]从尾到头打印链表">
+      <created>1641800413937</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1641800413938</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TodoView">
@@ -679,7 +690,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[58]最短无序连续子数组" />
     <MESSAGE value="[560]和为K的子数组" />
     <MESSAGE value="[300]最长递增子序列" />
     <MESSAGE value="[55]跳跃游戏" />
@@ -704,7 +714,8 @@
     <MESSAGE value="[剑指offer05]替换空格" />
     <MESSAGE value="[剑指offer13]机器人的运动范围" />
     <MESSAGE value="[剑指offer56] 数组中数字出现的次数II" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer56] 数组中数字出现的次数II" />
+    <MESSAGE value="[剑指offer06]从尾到头打印链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer06]从尾到头打印链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,6 +754,11 @@
           <url>file://$PROJECT_DIR$/src/Array/SearchMatrix.java</url>
           <line>58</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/BuildTree.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
