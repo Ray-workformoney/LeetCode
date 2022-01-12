@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer06]从尾到头打印链表">
-      <change afterPath="$PROJECT_DIR$/src/Tree/BuildTree.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer07]重建二叉树">
+      <change afterPath="$PROJECT_DIR$/src/Math/CuttingRope.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.BuildTree">
+  <component name="RunManager" selected="Application.CuttingRope">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -92,13 +92,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MinArray" />
+    <configuration name="CuttingRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.CuttingRope" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,13 +154,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinArray" />
       <item itemvalue="Application.MovingCount" />
       <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.BuildTree" />
+      <item itemvalue="Application.CuttingRope" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CuttingRope" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.MovingCount" />
-        <item itemvalue="Application.MinArray" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +319,8 @@
       <workItem from="1640692895812" duration="21018000" />
       <workItem from="1641348481694" duration="2525000" />
       <workItem from="1641781672479" duration="7945000" />
-      <workItem from="1641799675214" duration="7475000" />
-    </task>
-    <task id="LOCAL-00033" summary="[1894]找到需要补充粉笔的学生编号">
-      <created>1631959079361</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1631959079361</updated>
+      <workItem from="1641799675214" duration="9711000" />
+      <workItem from="1641956342836" duration="4602000" />
     </task>
     <task id="LOCAL-00034" summary="[442]数组中重复的数据">
       <created>1632302752996</created>
@@ -662,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641800413938</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="[剑指offer07]重建二叉树">
+      <created>1641884179846</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1641884179846</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TodoView">
@@ -690,7 +693,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[560]和为K的子数组" />
     <MESSAGE value="[300]最长递增子序列" />
     <MESSAGE value="[55]跳跃游戏" />
     <MESSAGE value="[128]最长连续序列" />
@@ -715,7 +717,8 @@
     <MESSAGE value="[剑指offer13]机器人的运动范围" />
     <MESSAGE value="[剑指offer56] 数组中数字出现的次数II" />
     <MESSAGE value="[剑指offer06]从尾到头打印链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer06]从尾到头打印链表" />
+    <MESSAGE value="[剑指offer07]重建二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer07]重建二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -757,7 +760,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree/BuildTree.java</url>
-          <line>60</line>
+          <line>61</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

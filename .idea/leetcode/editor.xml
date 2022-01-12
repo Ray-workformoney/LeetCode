@@ -397,6 +397,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[239]滑动窗口最大值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[239]滑动窗口最大值.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com239" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[239]滑动窗口最大值.java" />
+              <option name="titleSlug" value="sliding-window-maximum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[23]合并K个升序链表.java">
           <value>
             <LeetcodeEditor>
@@ -914,7 +925,32 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 13]机器人的运动范围.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 13" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 13]机器人的运动范围.java" />
+              <option name="titleSlug" value="ji-qi-ren-de-yun-dong-fan-wei-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 14- II]剪绳子 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 14- II]剪绳子 II.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 14- II" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 14- II]剪绳子 II.java" />
+              <option name="titleSlug" value="jian-sheng-zi-ii-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 14- I]剪绳子.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 14- I]剪绳子.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 14- I" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 14- I]剪绳子.java" />
+              <option name="titleSlug" value="jian-sheng-zi-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -923,6 +959,17 @@
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 35]复杂链表的复制.md" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 35]复杂链表的复制.java" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 43]1～n 整数中 1 出现的次数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 43]1～n 整数中 1 出现的次数.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 43" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 43]1～n 整数中 1 出现的次数.java" />
+              <option name="titleSlug" value="1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
