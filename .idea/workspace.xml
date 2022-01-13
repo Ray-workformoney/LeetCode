@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer14-I]剪绳子">
-      <change afterPath="$PROJECT_DIR$/src/Math/CuttingRopeII.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer14-II]剪绳子II">
+      <change afterPath="$PROJECT_DIR$/src/String/HammingWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.CuttingRopeII">
+  <component name="RunManager" selected="Application.HammingWeight">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -119,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.ReplaceSpace" />
+    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.HammingWeight" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -192,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.BuildTree" />
       <item itemvalue="Application.CuttingRope" />
       <item itemvalue="Application.CuttingRopeII" />
+      <item itemvalue="Application.HammingWeight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HammingWeight" />
         <item itemvalue="Application.CuttingRopeII" />
         <item itemvalue="Application.CuttingRope" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.ReplaceSpace" />
       </list>
     </recent_temporary>
   </component>
@@ -319,14 +320,7 @@
       <workItem from="1641348481694" duration="2525000" />
       <workItem from="1641781672479" duration="7945000" />
       <workItem from="1641799675214" duration="9711000" />
-      <workItem from="1641956342836" duration="7500000" />
-    </task>
-    <task id="LOCAL-00035" summary="[19]删除链表的倒数第N个节点">
-      <created>1632384608999</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1632384608999</updated>
+      <workItem from="1641956342836" duration="9003000" />
     </task>
     <task id="LOCAL-00036" summary="[19]删除链表的倒数第N个节点">
       <created>1632464140673</created>
@@ -664,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641973748004</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="[剑指offer14-II]剪绳子II">
+      <created>1642043841431</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1642043841431</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TodoView">
@@ -692,7 +693,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[55]跳跃游戏" />
     <MESSAGE value="[128]最长连续序列" />
     <MESSAGE value="[40]组合综合 II" />
     <MESSAGE value="[135]分发糖果" />
@@ -717,7 +717,8 @@
     <MESSAGE value="[剑指offer06]从尾到头打印链表" />
     <MESSAGE value="[剑指offer07]重建二叉树" />
     <MESSAGE value="[剑指offer14-I]剪绳子" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer14-I]剪绳子" />
+    <MESSAGE value="[剑指offer14-II]剪绳子II" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer14-II]剪绳子II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
