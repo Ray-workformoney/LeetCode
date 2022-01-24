@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer14-II]剪绳子II">
-      <change afterPath="$PROJECT_DIR$/src/String/HammingWeight.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer15]二进制中1的个数">
+      <change afterPath="$PROJECT_DIR$/src/Math/MyPow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.HammingWeight">
+  <component name="RunManager" selected="Application.MyPow">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -134,13 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.SingleNumber" />
+    <configuration name="MyPow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.MyPow" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.BuildTree" />
       <item itemvalue="Application.CuttingRope" />
       <item itemvalue="Application.CuttingRopeII" />
       <item itemvalue="Application.HammingWeight" />
+      <item itemvalue="Application.MyPow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyPow" />
         <item itemvalue="Application.HammingWeight" />
         <item itemvalue="Application.CuttingRopeII" />
         <item itemvalue="Application.CuttingRope" />
         <item itemvalue="Application.BuildTree" />
-        <item itemvalue="Application.SingleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -320,14 +320,9 @@
       <workItem from="1641348481694" duration="2525000" />
       <workItem from="1641781672479" duration="7945000" />
       <workItem from="1641799675214" duration="9711000" />
-      <workItem from="1641956342836" duration="9003000" />
-    </task>
-    <task id="LOCAL-00036" summary="[19]删除链表的倒数第N个节点">
-      <created>1632464140673</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1632464140673</updated>
+      <workItem from="1641956342836" duration="12762000" />
+      <workItem from="1642143507136" duration="1058000" />
+      <workItem from="1642311603416" duration="8200000" />
     </task>
     <task id="LOCAL-00037" summary="[11]盛水最多的容器">
       <created>1632467339032</created>
@@ -665,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642043841431</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="[剑指offer15]二进制中1的个数">
+      <created>1642053695897</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1642053695897</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TodoView">
@@ -693,7 +695,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[128]最长连续序列" />
     <MESSAGE value="[40]组合综合 II" />
     <MESSAGE value="[135]分发糖果" />
     <MESSAGE value="[373]查找和最小的K对数字" />
@@ -718,7 +719,8 @@
     <MESSAGE value="[剑指offer07]重建二叉树" />
     <MESSAGE value="[剑指offer14-I]剪绳子" />
     <MESSAGE value="[剑指offer14-II]剪绳子II" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer14-II]剪绳子II" />
+    <MESSAGE value="[剑指offer15]二进制中1的个数" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer15]二进制中1的个数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
