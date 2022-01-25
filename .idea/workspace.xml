@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer18]删除链表的节点">
-      <change afterPath="$PROJECT_DIR$/src/Array/Exchange.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer21]调整数组顺序使奇数位于偶数前面">
+      <change afterPath="$PROJECT_DIR$/src/LinkList/GetKthFromEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -322,14 +322,7 @@
       <workItem from="1641799675214" duration="9711000" />
       <workItem from="1641956342836" duration="12762000" />
       <workItem from="1642143507136" duration="1058000" />
-      <workItem from="1642311603416" duration="14747000" />
-    </task>
-    <task id="LOCAL-00040" summary="[34]在排序数组中查找元素的第一个和最后一个位置">
-      <created>1632815516040</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1632815516040</updated>
+      <workItem from="1642311603416" duration="16053000" />
     </task>
     <task id="LOCAL-00041" summary="[3]无重复字符的最长子串">
       <created>1632815573709</created>
@@ -667,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643009594038</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="[剑指offer21]调整数组顺序使奇数位于偶数前面">
+      <created>1643096338043</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1643096338043</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TodoView">
@@ -695,7 +695,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[206]反转链表" />
     <MESSAGE value="[129]求根节点到叶节点数字之和" />
     <MESSAGE value="[200]岛屿数量" />
     <MESSAGE value="[3]无重复字符的最长子串" />
@@ -720,7 +719,8 @@
     <MESSAGE value="[剑指offer16]数值的整数次方" />
     <MESSAGE value="[剑指offer17]打印从1到最大的n位数" />
     <MESSAGE value="[剑指offer18]删除链表的节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer18]删除链表的节点" />
+    <MESSAGE value="[剑指offer21]调整数组顺序使奇数位于偶数前面" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer21]调整数组顺序使奇数位于偶数前面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
