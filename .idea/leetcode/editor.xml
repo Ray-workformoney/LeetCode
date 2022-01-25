@@ -692,7 +692,10 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[62]不同路径.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com62" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[62]不同路径.java" />
+              <option name="titleSlug" value="unique-paths" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -995,6 +998,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.java" />
               <option name="titleSlug" value="shan-chu-lian-biao-de-jie-dian-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 20]表示数值的字符串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 20]表示数值的字符串.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 20" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 20]表示数值的字符串.java" />
+              <option name="titleSlug" value="biao-shi-shu-zhi-de-zi-fu-chuan-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 21]调整数组顺序使奇数位于偶数前面.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 21]调整数组顺序使奇数位于偶数前面.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 21" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 21]调整数组顺序使奇数位于偶数前面.java" />
+              <option name="titleSlug" value="diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
