@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer24]反转链表">
-      <change afterPath="$PROJECT_DIR$/src/LinkList/MergeTwoListsOffer.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer25]合并两个排序的链表">
+      <change afterPath="$PROJECT_DIR$/src/Tree/IsSubStructure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -322,14 +322,7 @@
       <workItem from="1641799675214" duration="9711000" />
       <workItem from="1641956342836" duration="12762000" />
       <workItem from="1642143507136" duration="1058000" />
-      <workItem from="1642311603416" duration="20658000" />
-    </task>
-    <task id="LOCAL-00043" summary="[448]找到所有数组中消失的数字">
-      <created>1632996161905</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1632996161905</updated>
+      <workItem from="1642311603416" duration="27482000" />
     </task>
     <task id="LOCAL-00044" summary="[22]括号生成">
       <created>1634119918018</created>
@@ -667,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643100343844</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="[剑指offer25]合并两个排序的链表">
+      <created>1643102136630</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1643102136630</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TodoView">
@@ -695,7 +695,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[200]岛屿数量" />
     <MESSAGE value="[3]无重复字符的最长子串" />
     <MESSAGE value="[240]搜索二维矩阵II" />
     <MESSAGE value="[77]组合" />
@@ -720,7 +719,8 @@
     <MESSAGE value="[剑指offer18]删除链表的节点" />
     <MESSAGE value="[剑指offer21]调整数组顺序使奇数位于偶数前面" />
     <MESSAGE value="[剑指offer24]反转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer24]反转链表" />
+    <MESSAGE value="[剑指offer25]合并两个排序的链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer25]合并两个排序的链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
