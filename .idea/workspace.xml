@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer28] 对称的二叉树">
-      <change afterPath="$PROJECT_DIR$/src/Array/SpiralOrder.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer29]顺时针打印矩阵">
+      <change afterPath="$PROJECT_DIR$/src/Design/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -322,14 +322,7 @@
       <workItem from="1642143507136" duration="1058000" />
       <workItem from="1642311603416" duration="28194000" />
       <workItem from="1643357145024" duration="1080000" />
-      <workItem from="1643606468836" duration="4807000" />
-    </task>
-    <task id="LOCAL-00047" summary="[49]字母异位词分组">
-      <created>1635233715402</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1635233715403</updated>
+      <workItem from="1643606468836" duration="8519000" />
     </task>
     <task id="LOCAL-00048" summary="[56]合并区间">
       <created>1635329827203</created>
@@ -667,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643727174328</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="[剑指offer29]顺时针打印矩阵">
+      <created>1643729941168</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1643729941168</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TodoView">
@@ -695,7 +695,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[1911]最大子序列交替和" />
     <MESSAGE value="[剑指 Offer 09] 用两个栈实现队列" />
     <MESSAGE value="[剑指 offer 10 - I] 斐波那契数列" />
     <MESSAGE value="剑指offer 03 数组中重复的数字" />
@@ -720,7 +719,8 @@
     <MESSAGE value="[剑指offer26]树的子结构" />
     <MESSAGE value="[剑指offer27]二叉树的镜像" />
     <MESSAGE value="[剑指offer28] 对称的二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer28] 对称的二叉树" />
+    <MESSAGE value="[剑指offer29]顺时针打印矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer29]顺时针打印矩阵" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,7 +767,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Array/SpiralOrder.java</url>
-          <line>26</line>
+          <line>25</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
