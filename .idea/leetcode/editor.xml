@@ -1133,6 +1133,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 31]栈的压入、弹出序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 31]栈的压入、弹出序列.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 31" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 31]栈的压入、弹出序列.java" />
+              <option name="titleSlug" value="zhan-de-ya-ru-dan-chu-xu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 35]复杂链表的复制.java">
           <value>
             <LeetcodeEditor>
