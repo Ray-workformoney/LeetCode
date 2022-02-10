@@ -1177,11 +1177,25 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 34]二叉树中和为某一值的路径.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 34]二叉树中和为某一值的路径.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 34" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 34]二叉树中和为某一值的路径.java" />
+              <option name="titleSlug" value="er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 35]复杂链表的复制.java">
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 35]复杂链表的复制.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 35" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 35]复杂链表的复制.java" />
+              <option name="titleSlug" value="fu-za-lian-biao-de-fu-zhi-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer32-III]从上到下打印二叉树">
-      <change afterPath="$PROJECT_DIR$/src/Tree/VerifyPostorder.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer33]二叉搜索树的后序遍历序列">
+      <change afterPath="$PROJECT_DIR$/src/Tree/PathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -325,14 +328,7 @@
       <workItem from="1642311603416" duration="28194000" />
       <workItem from="1643357145024" duration="1080000" />
       <workItem from="1643606468836" duration="8840000" />
-      <workItem from="1644244360107" duration="14290000" />
-    </task>
-    <task id="LOCAL-00051" summary="[739]每日温度">
-      <created>1635494290287</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1635494290287</updated>
+      <workItem from="1644244360107" duration="17697000" />
     </task>
     <task id="LOCAL-00052" summary="[102]二叉树的层序遍历">
       <created>1635761313193</created>
@@ -670,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644250884709</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="[剑指offer33]二叉搜索树的后序遍历序列">
+      <created>1644404737446</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1644404737447</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TodoView">
@@ -698,7 +701,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer 04 二维数组中的查找" />
     <MESSAGE value="[剑指offer 10-II] 青蛙跳台阶问题" />
     <MESSAGE value="[剑指 offer 11]旋转数组的最小数字" />
     <MESSAGE value="[剑指offer 12] 矩阵中的路径" />
@@ -723,7 +725,8 @@
     <MESSAGE value="[剑指offer30]包含min函数的栈" />
     <MESSAGE value="[剑指offer31]栈的压入、弹出序列" />
     <MESSAGE value="[剑指offer32-III]从上到下打印二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer32-III]从上到下打印二叉树" />
+    <MESSAGE value="[剑指offer33]二叉搜索树的后序遍历序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer33]二叉搜索树的后序遍历序列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
