@@ -1199,6 +1199,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 36]二叉搜索树与双向链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 36]二叉搜索树与双向链表.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 36" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 36]二叉搜索树与双向链表.java" />
+              <option name="titleSlug" value="er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 43]1～n 整数中 1 出现的次数.java">
           <value>
             <LeetcodeEditor>
