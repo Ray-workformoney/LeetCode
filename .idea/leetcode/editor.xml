@@ -536,6 +536,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[3]Longest Substring Without Repeating Characters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[3]Longest Substring Without Repeating Characters.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com3" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[3]Longest Substring Without Repeating Characters.java" />
+              <option name="titleSlug" value="longest-substring-without-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[3]无重复字符的最长子串.java">
           <value>
             <LeetcodeEditor>
@@ -566,8 +577,11 @@
         <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[42]接雨水.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[42]接雨水.md" />
-              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[42]接雨水.java" />
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[42]Trapping Rain Water.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com42" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[42]Trapping Rain Water.java" />
+              <option name="titleSlug" value="trapping-rain-water" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1207,6 +1221,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 36]二叉搜索树与双向链表.java" />
               <option name="titleSlug" value="er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 37]序列化二叉树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/doc/content/[剑指 Offer 37]序列化二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com剑指 Offer 37" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../temp/leetcode/editor/cn/[剑指 Offer 37]序列化二叉树.java" />
+              <option name="titleSlug" value="xu-lie-hua-er-cha-shu-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

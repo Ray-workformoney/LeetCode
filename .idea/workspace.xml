@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer35] 复杂链表的复制">
-      <change afterPath="$PROJECT_DIR$/src/Tree/TreeToDoublyList.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[剑指offer36] 二叉搜索树与双向链表">
+      <change afterPath="$PROJECT_DIR$/src/String/LengthOfLongestSubstring3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.CopyRandomList">
+  <component name="RunManager" selected="Application.LengthOfLongestSubstring3">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -95,13 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseListOffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkList.ReverseListOffer" />
+    <configuration name="LengthOfLongestSubstring3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.LengthOfLongestSubstring3" />
       <module name="LeetCode_J" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkList.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,19 +196,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseListOffer" />
       <item itemvalue="Application.SpiralOrder" />
       <item itemvalue="Application.ValidateStackSequences" />
       <item itemvalue="Application.VerifyPostorder" />
       <item itemvalue="Application.CopyRandomList" />
+      <item itemvalue="Application.LengthOfLongestSubstring3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstring3" />
         <item itemvalue="Application.CopyRandomList" />
         <item itemvalue="Application.VerifyPostorder" />
         <item itemvalue="Application.ValidateStackSequences" />
         <item itemvalue="Application.SpiralOrder" />
-        <item itemvalue="Application.ReverseListOffer" />
       </list>
     </recent_temporary>
   </component>
@@ -328,14 +328,7 @@
       <workItem from="1642311603416" duration="28194000" />
       <workItem from="1643357145024" duration="1080000" />
       <workItem from="1643606468836" duration="8840000" />
-      <workItem from="1644244360107" duration="26528000" />
-    </task>
-    <task id="LOCAL-00054" summary="[5]最长回文子串-中心扩散法">
-      <created>1635847070283</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1635847070283</updated>
+      <workItem from="1644244360107" duration="32113000" />
     </task>
     <task id="LOCAL-00055" summary="[647]回文子串">
       <created>1635992844893</created>
@@ -673,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644593217694</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="[剑指offer36] 二叉搜索树与双向链表">
+      <created>1644673577213</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1644673577213</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TodoView">
@@ -701,7 +701,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[剑指offer 12] 矩阵中的路径" />
     <MESSAGE value="[剑指offer05]替换空格" />
     <MESSAGE value="[剑指offer13]机器人的运动范围" />
     <MESSAGE value="[剑指offer56] 数组中数字出现的次数II" />
@@ -726,7 +725,8 @@
     <MESSAGE value="[剑指offer33]二叉搜索树的后序遍历序列" />
     <MESSAGE value="[剑指offer34]二叉树中和为某一值的路径" />
     <MESSAGE value="[剑指offer35] 复杂链表的复制" />
-    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer35] 复杂链表的复制" />
+    <MESSAGE value="[剑指offer36] 二叉搜索树与双向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="[剑指offer36] 二叉搜索树与双向链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
