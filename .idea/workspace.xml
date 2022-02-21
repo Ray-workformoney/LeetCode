@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="[6013] 合并零之间的节点">
-      <change afterPath="$PROJECT_DIR$/src/Interview/PokerOrder.java" afterDir="false" />
+    <list default="true" id="c06fd0d6-1523-4aa6-8958-0fe852caebb1" name="Default" comment="扑克牌的顺序">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaxProfit2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.PokerOrder">
+  <component name="RunManager" selected="Application.MaxProfit2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -122,6 +122,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxProfit2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.MaxProfit2" />
+      <module name="LeetCode_J" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PokerOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interview.PokerOrder" />
       <module name="LeetCode_J" />
@@ -136,33 +150,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkList.ReverseKGroup" />
-      <module name="LeetCode_J" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseKGroup" />
       <item itemvalue="Application.LRUCache2" />
       <item itemvalue="Application.FindKthLargest2" />
       <item itemvalue="Application.CountEven" />
       <item itemvalue="Application.PokerOrder" />
+      <item itemvalue="Application.MaxProfit2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfit2" />
         <item itemvalue="Application.PokerOrder" />
         <item itemvalue="Application.CountEven" />
         <item itemvalue="Application.FindKthLargest2" />
         <item itemvalue="Application.LRUCache2" />
-        <item itemvalue="Application.ReverseKGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -326,14 +328,8 @@
       <workItem from="1643357145024" duration="1080000" />
       <workItem from="1643606468836" duration="8840000" />
       <workItem from="1644244360107" duration="42726000" />
-      <workItem from="1645277406966" duration="5950000" />
-    </task>
-    <task id="LOCAL-00064" summary="[206]反转链表">
-      <created>1637565724951</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1637565724951</updated>
+      <workItem from="1645277406966" duration="6697000" />
+      <workItem from="1645444586286" duration="628000" />
     </task>
     <task id="LOCAL-00065" summary="[129]求根节点到叶节点数字之和">
       <created>1638500168948</created>
@@ -671,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645341771110</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="扑克牌的顺序">
+      <created>1645342819538</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1645342819538</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TodoView">
@@ -699,7 +702,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[剑指offer17]打印从1到最大的n位数" />
     <MESSAGE value="[剑指offer18]删除链表的节点" />
     <MESSAGE value="[剑指offer21]调整数组顺序使奇数位于偶数前面" />
     <MESSAGE value="[剑指offer24]反转链表" />
@@ -724,7 +726,8 @@
     <MESSAGE value="Interview LRU Cache" />
     <MESSAGE value="[6012] 统计各位数字之和为偶数的数字个数" />
     <MESSAGE value="[6013] 合并零之间的节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="[6013] 合并零之间的节点" />
+    <MESSAGE value="扑克牌的顺序" />
+    <option name="LAST_COMMIT_MESSAGE" value="扑克牌的顺序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,16 +736,6 @@
           <url>file://$PROJECT_DIR$/src/LinkList/ReverseBetween.java</url>
           <line>69</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/String/MyAtoi.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/ThreeSumClosest.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Array/CombinationSum2.java</url>
