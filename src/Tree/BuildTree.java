@@ -2,7 +2,7 @@ package Tree;
 
 import java.util.HashMap;
 import java.util.Map;
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [剑指offer07]重建二叉树
  * @author : huangrui

@@ -1,6 +1,6 @@
 package Tree;
 
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [剑指offer26]树的子结构
  * @author : huangrui

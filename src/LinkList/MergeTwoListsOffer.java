@@ -1,6 +1,6 @@
 package LinkList;
 
-import com.huangrui.leetcode.ListNode;
+import Common.ListNode;
 /**
  * [剑指offer25]合并两个排序的链表
  * @author : huangrui

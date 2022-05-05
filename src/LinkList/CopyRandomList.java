@@ -3,7 +3,7 @@ package LinkList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-import com.huangrui.leetcode.Node;
+import Common.Node;
 /**
  * [剑指offer35] 复杂链表的复制
  * @author : huangrui

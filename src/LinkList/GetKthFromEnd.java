@@ -1,6 +1,6 @@
 package LinkList;
 
-import com.huangrui.leetcode.ListNode;
+import Common.ListNode;
 /**
  * [剑指offer22]链表中倒数第k个节点
  * @author : huangrui

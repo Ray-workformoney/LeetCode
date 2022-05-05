@@ -1,6 +1,6 @@
 package Array;
 
-import com.huangrui.leetcode.PrintUtils;
+import Common.PrintUtils;
 /**
  * [剑指offer17]打印从1到最大的n位数
  * @author : huangrui

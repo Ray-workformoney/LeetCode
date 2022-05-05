@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [103] Binary Tree Zigzag Level Order Traversal
  * @author : huangrui

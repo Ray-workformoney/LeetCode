@@ -1,6 +1,6 @@
 package LinkList;
 
-import com.huangrui.leetcode.ListNode;
+import Common.ListNode;
 /**
  * [206] Reverse Linked List
  * @author : huangrui

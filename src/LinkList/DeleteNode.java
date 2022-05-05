@@ -1,6 +1,6 @@
 package LinkList;
 
-import com.huangrui.leetcode.ListNode;
+import Common.ListNode;
 /**
  * [剑指offer18]删除链表的节点
  * @author : huangrui

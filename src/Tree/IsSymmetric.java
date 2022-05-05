@@ -1,6 +1,6 @@
 package Tree;
 
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [剑指offer28] 对称的二叉树
  * @author : huangrui

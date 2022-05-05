@@ -1,8 +1,8 @@
 package LinkList;
 
 import java.util.Stack;
-import com.huangrui.leetcode.ListNode;
-import com.huangrui.leetcode.PrintUtils;
+import Common.ListNode;
+import Common.PrintUtils;
 /**
  * [剑指offer24]反转链表
  * @author : huangrui

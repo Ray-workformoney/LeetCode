@@ -1,6 +1,6 @@
 package LinkList;
 
-import com.huangrui.leetcode.ListNode;
+import Common.ListNode;
 /**
  * [25] Reverse Nodes in k-Group
  * @author : huangrui

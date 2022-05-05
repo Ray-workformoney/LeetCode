@@ -2,7 +2,7 @@ package Tree;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [剑指offer34]二叉树中和为某一值的路径
  * @author : huangrui

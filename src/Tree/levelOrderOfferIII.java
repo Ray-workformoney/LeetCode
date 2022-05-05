@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [剑指offer32-III]从上到下打印二叉树
  * @author : huangrui

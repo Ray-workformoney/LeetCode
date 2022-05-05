@@ -1,7 +1,7 @@
 package LinkList;
 
 import java.util.Stack;
-import com.huangrui.leetcode.ListNode;
+import Common.ListNode;
 /**
  * [剑指offer06]从尾到头打印链表
  * @author : huangrui

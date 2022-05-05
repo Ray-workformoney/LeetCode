@@ -1,6 +1,6 @@
 package Array;
 
-import com.huangrui.leetcode.PrintUtils;
+import Common.PrintUtils;
 /**
  * [剑指offer21]调整数组顺序使奇数位于偶数前面
  * @author : huangrui

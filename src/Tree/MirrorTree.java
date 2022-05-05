@@ -1,6 +1,6 @@
 package Tree;
 
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [剑指offer27]二叉树的镜像
  * @author : huangrui

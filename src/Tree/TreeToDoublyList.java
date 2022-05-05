@@ -1,6 +1,6 @@
 package Tree;
 
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [剑指offer36] 二叉搜索树与双向链表
  * @author : huangrui

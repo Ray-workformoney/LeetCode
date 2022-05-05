@@ -1,6 +1,6 @@
 package Tree;
 
-import com.huangrui.leetcode.TreeNode;
+import Common.TreeNode;
 /**
  * [129]求根节点到叶节点数字之和
  * @author : huangrui

@@ -1,4 +1,4 @@
-package com.huangrui.leetcode;
+package Common;
 
 import java.util.ArrayList;
 import java.util.Arrays;
