@@ -3,7 +3,7 @@ package Common;
 import java.util.*;
 
 /**
- * @author lingjiancong
+ * @author huangrui
  * @since 2021-04-26
  */
 public class PrintUtils {
@@ -30,11 +30,8 @@ public class PrintUtils {
         if (arr == null) {
             return;
         }
-        List<int[]> list = new ArrayList<>();
-        for (int[] ints : arr) {
-            list.add(ints);
-        }
-        Collections.sort(list, Comparator.comparing(ints -> ints[0]));
+        List<int[]> list = new ArrayList<>(Arrays.asList(arr));
+        list.sort(Comparator.comparing(ints -> ints[0]));
         for (int[] ints : list) {
             System.out.println(Arrays.toString(ints));
         }
@@ -45,8 +42,8 @@ public class PrintUtils {
         if (arr == null) {
             return;
         }
-        for (int i = 0; i < arr.length; ++i) {
-            print(arr[i]);
+        for (int[] ints : arr) {
+            print(ints);
         }
         System.out.println();
     }
