@@ -3,8 +3,10 @@ package Interview;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * LRU Cache
+ *
  * @author : huangrui
  * @version :
  * @date : 2022-02-19 21:30
@@ -31,15 +33,15 @@ public class LRUCache3 {
     private Entry head;
     private Entry tail;
 
-    private volatile LRUCache3 instance;
+    private static volatile LRUCache3 instance;
 
-    private LRUCache3 (Integer cap) {
+    private LRUCache3(Integer cap) {
         this.cache = new HashMap<>(cap);
         this.cap = cap;
         this.len = new AtomicInteger(0);
     }
 
-    public synchronized LRUCache3 getCache(Integer cap) {
+    public static synchronized LRUCache3 getCache(Integer cap) {
         if (instance == null) {
             synchronized (LRUCache3.class) {
                 if (instance == null) {
@@ -60,7 +62,7 @@ public class LRUCache3 {
             put(key, val);
             return val;
         }
-        linkedToTail(entry);
+        linkToTail(entry);
         return entry.val;
     }
 
@@ -68,7 +70,7 @@ public class LRUCache3 {
         if (cache.containsKey(key)) {
             Entry e = cache.get(key);
             e.val = val;
-            linkedToTail(e);
+            linkToTail(e);
             return;
         }
         if (len.get() == cap) {
@@ -79,33 +81,61 @@ public class LRUCache3 {
         } else {
             len.incrementAndGet();
         }
-        Entry entry = new Entry(key, val);
+        Entry entry = newEntry(key, val);
         cache.put(key, entry);
-        if (head == null) {
-            head = entry;
-            tail = entry;
-        } else {
-            linkedToTail(entry);
-        }
     }
 
-    private void linkedToTail(Entry entry) {
-        Entry pre = entry.pre;
-        Entry next = entry.next;
-        tail.next = entry;
-        entry.pre = tail;
-        entry.next = null;
-        tail = entry;
-        if (pre != null) {
-            pre.next = next;
-        }
-        if (next != null) {
+    private void linkToTail(Entry entry) {
+        Entry oldTail;
+        if ((oldTail = tail) != entry) {
+            Entry pre = entry.pre;
+            Entry next = entry.next;
+            entry.next = null;
+            if (pre == null) {
+                head = next;
+            } else {
+                pre.next = next;
+            }
             next.pre = pre;
+            entry.pre = oldTail;
+            oldTail.next = entry;
+            tail = entry;
         }
 
+    }
+
+    private Entry newEntry(String key, String val) {
+        Entry entry = new Entry(key, val);
+        linkLast(entry);
+        return entry;
+    }
+
+    private void linkLast(Entry entry) {
+        Entry oldTail = tail;
+        tail = entry;
+        if (oldTail == null) {
+            head = entry;
+        } else {
+            entry.pre = oldTail;
+            oldTail.next = entry;
+        }
     }
 
     private String getFromDb(String key) {
         return "DbValue";
+    }
+
+    public static void main(String[] args) {
+        LRUCache3 lruCache = LRUCache3.getCache(3);
+        lruCache.put("key1", "1");
+        String key1Value = lruCache.get("key1");
+        lruCache.put("key2", "2");
+        String key2Value = lruCache.get("key2");
+        lruCache.put("key3", "3");
+        key1Value = lruCache.get("key1");
+        lruCache.put("key1", "2");
+        lruCache.put("key4", "4");
+        System.out.println(key1Value);
+        System.out.println(key2Value);
     }
 }
