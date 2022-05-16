@@ -1,10 +1,7 @@
 package Common;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+
 /**
  * @author lingjiancong
  * @since 2021-04-26
@@ -60,5 +57,25 @@ public class PrintUtils {
 
     public static <T> void printList(List<T> nums) {
         System.out.println(Arrays.toString(nums.toArray()));
+    }
+
+    public static void print(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeNode t = queue.poll();
+            if (t != null) {
+                System.out.print(t.val + " ");
+                if (t.left != null || t.right != null) {
+                    queue.add(t.left);
+                    queue.add(t.right);
+                }
+            } else {
+                System.out.print("null ");
+            }
+        }
     }
 }
