@@ -1,5 +1,7 @@
 package Tree;
 
+import Common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -12,22 +14,6 @@ import java.util.Queue;
  * @date : 2021-11-01 17:44
  **/
 public class LevelOrder {
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {
-        }
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
 
