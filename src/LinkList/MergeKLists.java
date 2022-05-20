@@ -10,12 +10,9 @@
 
 package LinkList;
 
+import Common.ListNode;
+
 public class MergeKLists {
-    private static class ListNode {
-        int val;
-        MergeKLists.ListNode next;
-        ListNode(int x) { val = x; }
-    }
 
     private static ListNode merge(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(-1);
@@ -34,10 +31,12 @@ public class MergeKLists {
                 r = r.next;
             }
         }
-        if (p != null)
+        if (p != null) {
             r.next = p;
-        if (q != null)
+        }
+        if (q != null) {
             r.next = q;
+        }
         res = res.next;
         return res;
     }

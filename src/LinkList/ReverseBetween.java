@@ -1,5 +1,7 @@
 package LinkList;
 
+import Common.ListNode;
+
 /**
  * @program: LeetCode_J
  * @description: 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
@@ -8,12 +10,6 @@ package LinkList;
  **/
 
 public class ReverseBetween {
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 
     public static ListNode reverseBetween(ListNode head, int m, int n) {
 

@@ -7,14 +7,10 @@
         输出: 1->2->3*/
 package LinkList;
 
+import Common.ListNode;
+
 public class DeleteDuplicates
 {
-    public class ListNode
-    {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x;}
-    }
 
     public ListNode deleteDuplicates(ListNode head)
     {

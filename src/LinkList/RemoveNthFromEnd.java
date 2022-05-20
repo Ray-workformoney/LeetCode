@@ -1,5 +1,7 @@
 package LinkList;
 
+import Common.ListNode;
+
 import java.util.HashMap;
 import java.util.Map;
 /**
@@ -9,25 +11,6 @@ import java.util.Map;
  * @date : 2021-09-23 15:39
  **/
 public class RemoveNthFromEnd {
-
-    public static class ListNode {
-
-        int val;
-
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     /**
      * 用一个map记录位置

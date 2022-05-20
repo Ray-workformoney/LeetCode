@@ -7,13 +7,9 @@
         原因：342 + 465 = 807*/
 package LinkList;
 
-public class AddTwoNumbers {
+import Common.ListNode;
 
-      public static class ListNode {
-          int val;
-          ListNode next;
-          ListNode(int x) { val = x; }
-      }
+public class AddTwoNumbers {
 
     public static ListNode addTowNumbers(ListNode l1, ListNode l2){
           ListNode res, r, t1, t2;

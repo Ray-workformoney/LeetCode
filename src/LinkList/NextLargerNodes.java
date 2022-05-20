@@ -1,5 +1,7 @@
 package LinkList;
 
+import Common.ListNode;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,25 +13,6 @@ import java.util.Stack;
  * @date : 2021-09-17 11:40
  **/
 public class NextLargerNodes {
-
-    public static class ListNode {
-
-        int val;
-
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     /**
      * 暴力解法
