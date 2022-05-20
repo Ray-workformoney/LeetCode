@@ -10,9 +10,10 @@ public class PrintUtils {
 
     public static void print(ListNode head) {
         while (head != null) {
-            System.out.print(head.val + "-");
+            System.out.print(head.val + "->");
             head = head.next;
         }
+        System.out.print("null");
         System.out.println();
     }
 
